@@ -1,0 +1,68 @@
+
+body{
+    max-width: 1400px;
+    margin:0 auto;
+  background-image: url("img/background-texture.jpg");
+}
+
+
+.my-Lctrl, .my-Rctrl{
+    margin-top: 150px;
+    max-height:50px;
+    max-width: 50px;
+}
+.my-Lctrl:hoover, .my-Rctrl:hoover{
+    background-color: blue;
+}
+.my-navbar{
+  z-index: 999;
+  margin:20px 40px 0px 20px;
+  margin-bottom: 0;
+  background: none;
+  border:0;
+}
+.my-navbar a {
+    color: white !important;
+}
+.my-carousel{
+    
+   top:-90px;
+}
+.my-controls{
+   bottom:0 !important;
+}
+.my-container{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.my-container .my-text{
+    display: flex;
+    justify-content:space-around;
+    border:2px solid;
+    border-color: blue;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    margin-right:20px; 
+    max-width: 45vh;
+    min-width: 35vh;
+}
+.my-container p{
+    margin-left: 20px;
+    margin-right:20px; 
+}
+.my-title {
+    display: flex;
+    justify-content:center;
+}
+iframe{
+    display: block;
+  margin: 0 auto;
+  
+}
+footer{
+    display: flex;
+    min-height: 20vh;
+    margin-top:30px;
+    background-color: blue;
+}
